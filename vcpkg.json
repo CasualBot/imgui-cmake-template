@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    {
+        "name": "imgui",
+        "version>=": "1.91.0",
+        "features": [
+            "glfw-binding",
+            "opengl3-binding",
+            "dx12-binding",
+            "win32-binding",
+            "docking-experimental"
+        ]
+    }
+  ]
+}

@@ -16,8 +16,12 @@ See the [Dear ImGui git repository](https://github.com/ocornut/imgui) for inform
 7. Right click `LearningUICpp.sln` in Solution Explorer -> Select `Set as Startup Project`
 8. Run with `F5` or `Ctrl+F5`
 
+## Updating Project / Solution name
+1. Open the `CMakeLists.txt` file
+2. Find and replace any instances of `LearningUICpp` with your new project name
+3. Regenerate SLN if needed
+
 ## Notes
 1. This project is using the `docking` branch of imgui to provide multi-view and docking support
 2. This project uses >= v1.91.0 of ImGui
 3. This project is generated to use DX12 and Win32 APIs. If you'd like to use a different set of APIs update the vcpkg.json, update the `main.cpp` using the [examples from imgui](https://github.com/ocornut/imgui/tree/docking/examples), and re-generate the SLN using step 5 in `Getting Started`
-
